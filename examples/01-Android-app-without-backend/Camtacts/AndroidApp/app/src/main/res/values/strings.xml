@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">Camtacts</string>
+  <string name="first_name">First name</string>
+  <string name="last_name">Last name</string>
+  <string name="full_name">Full name</string>
+  <string name="phone_number">Phone number</string>
+  <string name="save_contact">SAVE CONTACT</string>
+  <string name="add_new_contact">Add new contact</string>
+  <string name="edit_contact">Edit contact</string>
+</resources>
