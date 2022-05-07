@@ -18,7 +18,7 @@ public class InMemoryContactsService implements ContactsService {
 
     @Override
     public Contact getContactById(int contactId) {
-        // This is a happy path programming at the moment. So we do not check for for .isPresent()
+        // This is a happy path programming at the moment. So we do not check for .isPresent()
         // and just call .get();
         //noinspection OptionalGetWithoutIsPresent
         return contacts.stream().filter(contact -> contact.getId() == contactId).findFirst().get();
