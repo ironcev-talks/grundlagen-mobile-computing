@@ -25,26 +25,6 @@
 			"response": []
 		},
 		{
-			"name": "Get contact by ID",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:9000/contacts/1",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "9000",
-					"path": [
-						"contacts",
-						"1"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Add new contact",
 			"request": {
 				"method": "POST",
